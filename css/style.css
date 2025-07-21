@@ -1,0 +1,110 @@
+div{
+ margin: 20px;
+ align-content: center;
+}
+
+div.container-border{
+  align-items: center;
+}
+
+.carousel-item{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.carousel-inner {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+    margin: 10px;
+    align-content: center;
+}
+
+.list-group{
+    margin: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+#buster:hover{
+  background-color: red;
+}
+
+#buster{
+  text-align: justify;
+}
+
+#ikebukuro{
+  background-color: red;
+  border: red;
+}
+
+#MTC{
+text-align: justify;
+}
+
+#MTC:hover{
+  background-color: #004eff;
+}
+
+#yokohama{
+  background-color: #004eff;
+  border: #004eff;
+}
+
+#posse:hover{
+background-color: yellow;
+}
+
+#posse{
+  text-align: justify;
+}
+
+#shibuya{
+  background-color: yellow;
+  border: yellow;
+  
+}
+
+#matenro:hover{
+  background-color: gray;
+}
+
+#matenro{
+  text-align: justify;
+}
+
+#shinjuku{
+  background-color: gray;
+  border: gray;
+}
+
+@media (max-width: 500px) {
+  .list-group {
+    text-align: center;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .col-sm {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-inner {
+    align-items: center;
+    display: bflex;
+    float: none;
+  }
+}
